@@ -18,3 +18,6 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+# Add third-party packages (Parent Control & OpenAppFilter)
+git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
